@@ -1,0 +1,32 @@
+{
+  "name": "validater-express-acme",
+  "version": "0.0.1",
+  "description": "middleware to validate body, params and query in express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/validater-express.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "body",
+    "params",
+    "query"
+  ],
+  "files":[
+    "index.js"
+  ],
+  "author": "Jesus Edel Cereceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cereceres/validater-express/issues"
+  },
+  "homepage": "https://github.com/Cereceres/validater-express#readme",
+  "dependencies": {
+    "joi": "^13.3.0"
+  }
+}
